@@ -39,7 +39,7 @@ app.post("/", async (req, res) => {
       company: "Bajaj Finserv Ltd",
       accountNumber: acc,
       currentPrice: 1575,
-      githubRepoLink: "https://github.com/ranakanhaiya007",
+      githubRepoLink: "https://github.com/pushpinder09/bajaj-project",
     };
     const r2 = await fetch(
       "https://customer-analytics-34146.my.salesforce-sites.com/services/apexrest/buyStocks",
@@ -47,7 +47,7 @@ app.post("/", async (req, res) => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "bfhl-auth": "2110990717",
+          "bfhl-auth": "2110991098",
         },
         body: JSON.stringify(d2),
       },
